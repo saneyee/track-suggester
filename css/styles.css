@@ -1,4 +1,15 @@
+
+#left-pic {
+    float: left;
+}
+#right {
+    float: right;
+}
 .jumbotron {
   background-color: black;
   color: white;
+}
+
+img {
+    float: right;
 }
