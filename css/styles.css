@@ -15,11 +15,12 @@ img {
 }
 
 
+
 .highlights {
   margin-top: 30px;
   margin-left: 1px;
   border: 2px solid black;
-  padding: 5px;
+  padding: 15px;
   float: left;
   font-family: sans-serif;
   color: purple;
