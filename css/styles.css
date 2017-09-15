@@ -29,6 +29,9 @@ img {
 .light {
     color: black;
 }
+h4 {
+    text-align: center;
+}
 
 
 img#center-pic {
@@ -38,8 +41,9 @@ img#center-pic {
     display: none;
     text-align: center;
     margin-top: 100px;
-    margin-left: 600px;
-    border: 2px solid blue;
+    margin-left: 400px;
     padding: 15px;
-
+}
+#css-sugges, #php-sugges, #c-sugges, #ruby-sugges, #java-sugges, #ios-sugges {
+    display: none;
 }
