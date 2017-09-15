@@ -34,3 +34,12 @@ img {
 img#center-pic {
     background-position: center;
 }
+#outpt {
+    display: none;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 600px;
+    border: 2px solid blue;
+    padding: 15px;
+
+}
