@@ -12,14 +12,15 @@
     </head>
     <body>
         <div class="container">
+            <!-- heading starts -->
             <header>
                 <h1><img id="left-pic" src="http://www.codus.com.br/wp-content/uploads/2016/08/codus-logo-300x80.png" height="50" width="220" alt="codus pic"></h1>
                 <ul class="nav nav-pills right">
                     <li role="presentation" class="active"><a href="#">Home</a></li>
                     <li role="presentation"><a href="contact.html">Contact Us</a></li>
                 </ul>
-
             </header>
+            <!-- heading ends -->
       <br>
       <br>
       <br>
@@ -30,12 +31,15 @@
                   <footer>Benjamin Franklin</footer>
                 </blockquote>
             </div>
+            <!-- Introduction starts -->
             <div class="picture">
                     <img  src="https://s-media-cache-ak0.pinimg.com/originals/e8/4e/6a/e84e6af1651ae464b4b7256e346e0822.jpg" alt="web pic">
                     <p>Now that Codus offers so many different courses, we often get students unsure of what to take after they finish Introduction to Programming. If you're a Codus student or anybody wondering which language to learn, the first thing you need to decide is if you want to focus more on front-end or back-end development. Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design classes at Codus.</p>
 
                     <p>If you're more interested in back-end development, you have several choices of languages: C#, Java, PHP, and Ruby are all offered at Codus. My best advice about how to choose is not to worry too much. Most modern programming languages have more similarities than differences, and Codus graduates often find themselves working in different languages than they studied in school. Back-end programmers often switch languages as they change jobs, or even as they build different types of software at the same job. So don't stress too much about making the right choice! That said, each language has found a bit of a niche, and depending on your interests, you might be attracted to one over another.</p>
             </div>
+            <!-- Introduction ends -->
+            <!-- description of courses starts -->
             <div class="courses">
                 <h2>Courses</h2>
                 <div class="well">
@@ -63,10 +67,53 @@
                         Though each language has its niche, there is plenty of crossover. For example, Rails' popularity inspired copycats in just about every language, and so you'll see interactive web applications written in C#, Java, and PHP, with Rails-like frameworks including .NET MVC, Spring, and Laravel. Even at one company, you might find them using PHP for their marketing site, Ruby for their web application, and Java for their back-end process</p>
                     </div>
                 </div>
-
-
-
             </div>
+        <!-- description of courses end -->
+        <!-- Form starts -->
+            <div class="form1">
+                <h3>Courses Suggester</h3>
+                <form id="formone">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input id="age" class="form-control" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Select your gender:</label>
+                        <select class="form-control" id="gender">
+                          <option value = "genderx">Your gender</option>
+                          <option value = "male">Male</option>
+                          <option value = "female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                    <label for="music">Select your music:</label>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="music" value="rap">
+                      Rap
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="music" value="pop">
+                      Pop
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="music" value="classical">
+                      Classical
+                    </label>
+                    </div>
+                  </div>
+                  <button type="submit" name="button">Match Yourself</button>
+          </form>
+  </div>
+
 
     </div>
 
