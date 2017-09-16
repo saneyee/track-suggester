@@ -23,7 +23,7 @@ img {
   padding: 15px;
   float: left;
   font-family: sans-serif;
-  color: purple;
+  color: #337ab7;
 
 }
 .light {
@@ -32,8 +32,20 @@ img {
 h4 {
     text-align: center;
 }
-
-
+.courses {
+    color: #337ab7;
+    font-style: normal;
+}
+.courses:hover {
+    cursor: pointer;
+}
+.courses h2 span {
+    font-size: 15px;
+}
+.well {
+    display: none;
+    color: black;
+}
 img#center-pic {
     background-position: center;
 }
@@ -43,7 +55,9 @@ img#center-pic {
     margin-top: 100px;
     margin-left: 400px;
     padding: 15px;
+    color: #337ab7;
 }
 #css-sugges, #php-sugges, #c-sugges, #ruby-sugges, #java-sugges, #ios-sugges {
     display: none;
+    color: #337ab7;
 }

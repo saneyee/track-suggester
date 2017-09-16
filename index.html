@@ -41,7 +41,7 @@
             <!-- Introduction ends -->
             <!-- description of courses starts -->
             <div class="courses">
-                <h2>Courses</h2>
+                <h2>Courses <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span> </h2>
                 <div class="well">
                     <div id="course-css">
                         <h3>CSS/Design</h3>
@@ -89,7 +89,7 @@
                     <form id="formone">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input id="name" class="form-control" type="text">
+                            <input id="name" class="form-control" type="text" required>
                         </div>
                         <div class="form-group">
                             <label for="gender">Select your gender:</label>
@@ -131,13 +131,14 @@
                             <label for="dev">What interests you ?</label>
                             <div class="radio2">
                                 <label>
-                                    <input type="radio" name="dev" value="front">
+                                    <input type="radio" name="dev" value="front" required>
                                     Front End
                                 </label>
                             </div>
                             <div class="radio2">
                                 <label>
-                                    <input type="radio" name="dev" value="back">
+                                    <input type="radio" name="dev" value="back"
+                                    >
                                     Back End
                                 </label>
                             </div>
@@ -146,7 +147,7 @@
                             <label for="comp">Which kind of companies you want to work for ?</label>
                             <div class="radio3">
                                 <label>
-                                    <input type="radio" name="comp" value="startup">
+                                    <input type="radio" name="comp" value="startup" required>
                                     Start Up
                                 </label>
                             </div>
@@ -161,7 +162,7 @@
                             <label for="kind">What kind of developer you want to be ?</label>
                             <div class="radio4">
                                 <label>
-                                    <input type="radio" name="kind" value="android">
+                                    <input type="radio" name="kind" value="android" required>
                                     Android
                                 </label>
                             </div>

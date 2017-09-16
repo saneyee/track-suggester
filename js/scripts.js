@@ -1,6 +1,11 @@
 $(function(){
+    $(".courses").click(function(){
+        $(".well").toggle();
+
+    });
     $("form#formone").submit(function(event) {
         $("#outpt, #css-sugges, #php-sugges, #c-sugges, #ruby-sugges, #java-sugges, #ios-sugges").hide();
+
         var name = $("input#name").val();
         var gender = $("#gender").val();
         var age = $("#age").val();
@@ -12,7 +17,8 @@ $(function(){
 
         $("#name-output").text(name);
 
-        if (name != false && gender != false &&  age != false && prog != false && previousExp != false && devChoice != false && compChoice != false && kindChoice != false) {
+        if (name != false && gender != false &&  age != false && prog != false && previousExp != false && devChoice != false && compChoice != false && kindChoice != false)
+        {
             if (devChoice === 'front' && compChoice === 'startup' && kindChoice === 'android') {
             $("#css-sugges").show();
             $("#ruby-sugges").show();
@@ -53,28 +59,12 @@ $(function(){
             $("#c-sugges").show();
             $("#ios-sugges").show();
             }
-
-
-
-        $("#outpt").show();
-    }
-
-        else {
-            alert("Fill up the form!!!!");
+            $("#outpt").show();
         }
-
-
-
-
-
-
-
-
-
-
+        else
+        {
+            alert("Please fill up the form!!!!");
+        }
     event.preventDefault();
     });
-
-
-
 });
