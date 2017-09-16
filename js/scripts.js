@@ -17,7 +17,41 @@ $(function(){
             $("#css-sugges").show();
             $("#ruby-sugges").show();
             $("#java-sugges").show();
-
+            }
+            if (devChoice === 'front' && compChoice === 'startup' && kindChoice === 'ios') {
+            $("#css-sugges").show();
+            $("#ruby-sugges").show();
+            $("#ios-sugges").show();
+            }
+            if (devChoice === 'front' && compChoice === 'large' && kindChoice === 'android') {
+            $("#css-sugges").show();
+            $("#c-sugges").show();
+            $("#java-sugges").show();
+            }
+            if (devChoice === 'front' && compChoice === 'large' && kindChoice === 'ios') {
+            $("#css-sugges").show();
+            $("#c-sugges").show();
+            $("#ios-sugges").show();
+            }
+            if (devChoice === 'back' && compChoice === 'startup' && kindChoice === 'android') {
+            $("#php-sugges").show();
+            $("#ruby-sugges").show();
+            $("#java-sugges").show();
+            }
+            if (devChoice === 'back' && compChoice === 'startup' && kindChoice === 'ios') {
+            $("#php-sugges").show();
+            $("#ruby-sugges").show();
+            $("#ios-sugges").show();
+            }
+            if (devChoice === 'back' && compChoice === 'large' && kindChoice === 'android') {
+            $("#php-sugges").show();
+            $("#c-sugges").show();
+            $("#java-sugges").show();
+            }
+            if (devChoice === 'back' && compChoice === 'large' && kindChoice === 'ios') {
+            $("#php-sugges").show();
+            $("#c-sugges").show();
+            $("#ios-sugges").show();
             }
 
 
