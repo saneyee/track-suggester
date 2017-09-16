@@ -11,7 +11,23 @@ $(function(){
         var kindChoice = $("input:radio[name=kind]:checked").val();
 
         $("#name-output").text(name);
+
+        if (name != false && gender != false &&  age != false && prog != false && previousExp != false && devChoice != false && compChoice != false && kindChoice != false) {
+            if (devChoice === 'front' && compChoice === 'startup' && kindChoice === 'android') {
+            $("#css-sugges").show();
+            $("#ruby-sugges").show();
+            $("#java-sugges").show();
+
+            }
+
+
+
         $("#outpt").show();
+    }
+
+        else {
+            alert("Fill up the form!!!!");
+        }
 
 
 
